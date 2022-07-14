@@ -1,12 +1,12 @@
 "use strict";
 
 // 1
-//let x = 10, y = 7;
-//let result = (x > y) ? alert("x больше, чем y") : alert("x не больше, чем y");
+//const x = 10, y = 7;
+//const result = (x > y) ? alert("x больше, чем y") : alert("x не больше, чем y");
 
 // 2
 /*
-let num = +prompt("Enter the number")
+const num = +prompt("Enter the number")
 
 if (num % 2 === 0 ) {
   alert("Even" + num + "Number")
@@ -17,7 +17,7 @@ if (num % 2 === 0 ) {
 
 // 3
 /*
-let a = prompt("Enter the number"); 
+const a = prompt("Enter the number"); 
 
 if (Math.sign(a) === 1) {
   console.log("«Number»" + a + "«Positive»");
@@ -57,9 +57,9 @@ function check(a, b, c)
         return true;
 }
  
-let a = +prompt("Enter first number");
-let b = +prompt("Enter second number");
-let c = +prompt("Enter third number");
+const a = +prompt("Enter first number");
+const b = +prompt("Enter second number");
+const c = +prompt("Enter third number");
     if (check(a, b, c))
         console.log("Valid");
     else
