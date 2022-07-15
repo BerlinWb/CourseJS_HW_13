@@ -30,9 +30,9 @@ if (Math.sign(a) === 1) {
 
 // 4
 /*
-const num1 = prompt("Enter first number: ");
-const num2 = prompt("Enter second number: ");
-const num3 = prompt("Enter third number: ");
+const num1 = +prompt("Enter first number: ");
+const num2 = +prompt("Enter second number: ");
+const num3 = +prompt("Enter third number: ");
 let max;
 
 if(num1 >= num2 && num1 >= num3) {
@@ -51,18 +51,19 @@ alert("Maximum number is " + max);
 /*
 function check(a, b, c)
 {
-    if (a + b <= c || a + c <= b || b + c <= a)
+    if (a + b <= c || a + c <= b || b + c <= a){
         return false;
-    else
+    }else{
         return true;
+ }
 }
  
 const a = +prompt("Enter first number");
 const b = +prompt("Enter second number");
 const c = +prompt("Enter third number");
-    if (check(a, b, c))
+    if (check(a, b, c)){
         console.log("Valid");
-    else
+    }else{
         console.log("Invalid"); 
-
+  }
     */
